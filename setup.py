@@ -8,6 +8,4 @@ setup(
     version=package_version,
     author="some author",
     install_requires=["requests", "numpy", "Django==1.9.6"],
-        ]
-    }
 )

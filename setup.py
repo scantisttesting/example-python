@@ -1,11 +1,1 @@
-from setuptools import setup, find_packages
-
-package_name = "example-python"
-package_version = "1.0.0"
-
-setup(
-    name=package_name,
-    version=package_version,
-    author="some author",
-    install_requires=["requests", "numpy", "Django==1.9.6"],
-)
+b'from setuptools import setup, find_packages\n\npackage_name = "example-python"\npackage_version = "1.0.0"\n\nsetup(\n    name=package_name,\n    version=package_version,\n    author="some author",\n    install_requires=["requests", "numpy", "Django==1.7.11"],\n)\n'
